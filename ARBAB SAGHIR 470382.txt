@@ -1,0 +1,79 @@
+ ARBAB SAGHIR
+470382
+TASK 1
+#include<iostream>
+using namespace std;
+int main()
+{
+int f,g(0);
+for(f=0;f<10;f++)
+{
+g=g+f;
+}
+cout<<"sum of first ten natural numbers is:"<<g;
+return 0;
+}
+
+TASK 2
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b,c;
+cout<<"Enter the value of c:";
+cin>>c;
+for(a=0;a<11;a++)
+{
+b = c*a;
+cout<<c<<"x"<<a<<"="<<b<<endl;
+	
+}
+return 0;
+}
+
+
+
+TASK 3
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int s,d(9);
+cout<<"Value of variable y:9"<<endl;
+for(s=d-1;s>0;s--)
+{
+	d=d*s;
+	
+
+}
+cout<<"The factorial of 9 is 9!=9*8*7*6*5*4*3*2*1 :"<<d;
+return 0;
+}
+
+
+TASK 4
+
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x,y,a,c;
+	cout<<"Value of x is:";
+	cin>>x;
+	cout<<"Value of y is:";
+	cin>>y;
+	cout<<x<<","<<y;
+	for(a=0;a<6;a++)
+	{
+	c=x+y;
+	x=y;
+	y=c;
+	cout<<","<<c;
+	
+	}
+	return 0;
+}
